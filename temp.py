@@ -1,8 +1,8 @@
-def spam():
-    global eggs
-    eggs = 'hi'
-    print(eggs)
+message = 'It was a bright cold day in April, and the clicks were striking thirteen.'
+count = {}
 
-eggs = 42
-spam()
-print(eggs)
+for i in message:
+    count.setdefault(i, 0)
+    count[i] = count[i] + 1
+
+print(count)
