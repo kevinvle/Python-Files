@@ -1,8 +1,6 @@
-message = 'It was a bright cold day in April, and the clicks were striking thirteen.'
-count = {}
+x = int(input('enter 1'))
+y = int(input('enter 2'))
+add2 = x + y
+print(add2)
 
-for i in message:
-    count.setdefault(i, 0)
-    count[i] = count[i] + 1
-
-print(count)
+assert add2(1,2) 
