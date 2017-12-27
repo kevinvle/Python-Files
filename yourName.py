@@ -1,5 +1,5 @@
 name = ''
-while name != "kevin"swag:
+while name != "kevin":
     print('please type your name.')
     name = input()
 print('Thank you!')
